@@ -2,7 +2,7 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  color: #3e497a;
+  color: #8373db;
 }
 
 .about {
@@ -13,14 +13,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+  background-color: #b2bad0;
   color: #f0f0f0;
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
-  color: #e9d35b;
+  color: #6375c6;
   height: 50px;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .education img {
-  width: 200px;
-  margin: 20px auto;
-  display: block;
+  width: 400px;
+  height: 300px;
+  
 }
