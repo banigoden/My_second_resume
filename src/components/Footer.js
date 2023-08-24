@@ -34,7 +34,7 @@ function Footer() {
           <EmailIcon />
         </a>
       </div>
-      <p> &copy; 2023 banigoden.github.io</p>
+      <p> &copy; 2023 denis_bandurin.vercel.app</p>
     </div>
   );
 }
