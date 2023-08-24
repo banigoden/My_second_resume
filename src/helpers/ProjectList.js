@@ -1,30 +1,31 @@
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
+import Proj3 from "../assets/proj3.jpg";
+import Proj7 from "../assets/proj31.jpg";
+import Proj4 from "../assets/proj4.jpg";
 import Proj5 from "../assets/proj5.jpg";
 import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "My portfolio",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "JavaScript, React, HTML, CSS",
   },
   {
-    name: "Ecommerce Website",
+    name: "Service of notes",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "Java, Spring Boot, JPA, PostgreSQL",
   },
   {
-    name: "Spotify Clone",
-    image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    name: "Pet clinic application",
+    image: Proj7,
+    skills: "Java, AWS, EC2, Maven, Docker, Docker Compose, Terraform",
   },
   {
-    name: "Social Media Website",
+    name: "Jenkins-server via Terraform",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "Jenkins, Terraform, Bash script, Docker, Git, AWS EC2, Route53, SecurityAccess",
   },
   {
     name: "Dashboard Visualizer",

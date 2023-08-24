@@ -11,9 +11,9 @@ function Experience() {
     <VerticalTimeline lineColor="#aaa">
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#869cd5', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
         date="2021 - 2022"
+        contentStyle={{ background: '#869cd5'}}
         iconStyle={{ background: '#869cd5', color: '#fff' }}
         icon={<WorkIcon />}
       >
@@ -25,9 +25,9 @@ function Experience() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#869cd5', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
         date="2021 - 2022"
+        contentStyle={{ background: '#869cd5'}}
         iconStyle={{ background: '#869cd5', color: '#fff' }}
         icon={<WorkIcon />}
       >
@@ -41,9 +41,9 @@ function Experience() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#869cd5', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
         date="2017 - 2021"
+        contentStyle={{ background: '#869cd5'}}
         iconStyle={{ background: '#869cd5', color: '#fff' }}
         icon={<WorkIcon />}
       >
@@ -61,9 +61,9 @@ function Experience() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#869cd5', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
         date="2016 - 2017"
+        contentStyle={{ background: '#869cd5'}}
         iconStyle={{ background: '#869cd5', color: '#fff' }}
         icon={<WorkIcon />}
       >
@@ -78,9 +78,9 @@ function Experience() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#869cd5', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
         date="2015 - 2016"
+        contentStyle={{ background: '#869cd5'}}
         iconStyle={{ background: '#869cd5', color: '#fff' }}
         icon={<WorkIcon />}
       >

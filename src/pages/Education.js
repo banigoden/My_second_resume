@@ -25,7 +25,7 @@ function Education() {
         icon={<SchoolIcon />}
       >
         <h3 className="vertical-timeline-element-title">Online training course (2 parts) on Java programming basics</h3>
-        <h4 className="vertical-timeline-element-subtitle">Helsenki University</h4>
+        <h4 className="vertical-timeline-element-subtitle">Helsinki University</h4>
      </VerticalTimelineElement>
      <VerticalTimelineElement
           className="vertical-timeline-element--work"
