@@ -69,14 +69,12 @@ function Experience() {
       >
         <h3 className="vertical-timeline-element-title">List, System administrator</h3>
         <h4 className="vertical-timeline-element-subtitle">Saint Petersburg, Russia</h4>
-     
         <p> Technical support for corporate client/server systems of Linux</p>
         <p> Preventative maintenance on laptops, printers, and any other equipment</p>
         <p> Security monitoring</p>
         <p> Worked with My SQL</p>
         <p> Installation and administration of IP cameras, telephony</p>
         <p> Worked with network</p>
-
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -94,8 +92,7 @@ function Experience() {
         <p>Creating and configuring accounts and access rights in Linux</p>
         <p>Configuration of Cisco and D-Link routers</p>
         <p>Email account administration</p>
-        <p>Hyper-V</p>
-        
+        <p>Hyper-V</p>   
       </VerticalTimelineElement>
     </VerticalTimeline>
   );
