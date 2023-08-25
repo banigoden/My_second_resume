@@ -31,7 +31,7 @@ export const ProjectList = [
     githubUrl: "https://github.com/banigoden/Jenkins-server",
   },
   {
-    name: "My website",
+    name: "My second website",
     image: Proj5,
     skills: "JavaScript,HTML,CSS",
     githubUrl: "https://github.com/banigoden/banigoden.io",

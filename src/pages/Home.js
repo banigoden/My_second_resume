@@ -19,22 +19,13 @@ import photo from '../assets/myphoto.png';
 function Home() {
    return (
     <div className="home">
-      <div className="about">
-      <Box
-          component="img"
-          alt="Denis Bandurin"
-          src={photo} 
-          sx={{
-            width: "400px",
-            height: "400px", 
-            borderRadius: "200px",
-            marginBottom: "10px",
-          }}
-        />
+      <div className="about">   
+      <div className="myimage">
+       <img src={photo}></img>
+      </div>
         <h2> Hi, My Name is Denis</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          
         <a href="https://twitter.com/Banigoden" target="_blank" rel="noopener noreferrer">
           <TwitterIcon />
         </a>
@@ -58,41 +49,41 @@ function Home() {
         </a>
         </div>
       </div>
-      <div className="abouts">
+      <div className="aboutme">
       <h1> About me</h1>
-      <p>
-      With eight years of experience in the IT industry, I decided to
-      transition into Java programming. I gained my initial IT experience
-      in Russia as an administrator from 2015 to 2020 in St. Petersburg.
-      During this time, I acquired valuable knowledge working with Unix
-      systems and developed small applications for various tasks.
-    </p>
-    <p>
-      I further expanded my expertise as a member of the technical staff at
-      Oracle, where I contributed to a cloud project by testing networks
-      and hard disk drivers. I faced the challenge of working with Python
-      instead of Java and successfully adapted to the new language.
-      Additionally, I regularly tested drivers with new kernels on different
-      virtual machines. Since the beginning of 2018, I have been actively
-      studying backend and frontend development on my own. I have
-      completed several courses on the JavaRush and Helsinki University
-      platforms, enhancing my skills in these areas. This year, I focused
-      on learning Kubernetes and Docker to strengthen my proficiency in
-      containerization and orchestration.
-    </p>
-    <p>
-      Currently, I am pursuing the Ultimate AWS Certified Developer
-      Associate 2023 NEW DVA-C02 online course on Udemy. You can explore
-      my portfolio page, which showcases projects I have developed
-      independently. My passion lies in professional growth as a Java
-      Developer, both in backend and frontend development, with the
-      ultimate goal of becoming an Architect. Drawing from my experience
-      as a system administrator, I possess a deep understanding of DevOps
-      features and how they can contribute to successful project outcomes.
-      I am highly motivated to apply my knowledge in challenging projects
-      that not only allow me to learn new technologies but also enhance
-      my working experience.
-    </p>
+      <h3>
+        With eight years of experience in the IT industry, I decided to
+        transition into Java programming. I gained my initial IT experience
+        in Russia as an administrator from 2015 to 2020 in St. Petersburg.
+        During this time, I acquired valuable knowledge working with Unix
+        systems and developed small applications for various tasks.
+      </h3>
+      <h3> 
+        I further expanded my expertise as a member of the technical staff at
+        Oracle, where I contributed to a cloud project by testing networks
+        and hard disk drivers. 
+        I faced the challenge of working with Python instead of Java and successfully adapted to the new language.
+        Additionally, I regularly tested drivers with new kernels on different
+        virtual machines. Since the beginning of 2018, I have been actively
+        studying backend and frontend development on my own. I have
+        completed several courses on the JavaRush and Helsinki University
+        platforms, enhancing my skills in these areas. This year, I focused
+        on learning Kubernetes and Docker to strengthen my proficiency in
+        containerization and orchestration.
+        </h3>
+        <h3> 
+          Currently, I am pursuing the Ultimate AWS Certified Developer
+          Associate 2023 NEW DVA-C02 online course on Udemy. You can explore
+          my portfolio page, which showcases projects I have developed
+          independently. My passion lies in professional growth as a Java
+          Developer, both in backend and frontend development, with the
+          ultimate goal of becoming an Architect. Drawing from my experience
+          as a system administrator, I possess a deep understanding of DevOps
+          features and how they can contribute to successful project outcomes.
+          I am highly motivated to apply my knowledge in challenging projects
+          that not only allow me to learn new technologies but also enhance
+          my working experience.
+          </h3>
       </div>
       <div className="skills">
         <h1> Skills</h1>
