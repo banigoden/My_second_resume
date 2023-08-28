@@ -79,6 +79,26 @@ function Education() {
           <p>AWS Certified Developer Associate</p>
           <img src={ require('../images/awsi.jpeg')} alt="Certificate AWS Developer Associate" width="400" height="300"/>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023"
+          iconStyle={{ background: '#deeb6b', color: '#fff' }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Linux Challenges</h3>
+          <p>Linux Challenges</p>
+          <img src={ require('../images/certificate4.jpg')} alt="Linux Challenges" width="400" height="300"/>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023"
+          iconStyle={{ background: '#deeb6b', color: '#fff' }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Kubernetes Challenges</h3>
+          <p>Kubernetes Challenges</p>
+          <img src={ require('../images/certificate5.jpg')} alt="Kubernetes Challenges" width="400" height="300"/>
+        </VerticalTimelineElement>
       </VerticalTimeline>
   );
 }
