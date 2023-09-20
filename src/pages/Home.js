@@ -25,7 +25,7 @@ function Home() {
       </div>
         <h2> Hi, My Name is Denis</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
+          <p>A DevOps with a passion for learning and creating.</p>
         <a href="https://twitter.com/Banigoden" target="_blank" rel="noopener noreferrer">
           <TwitterIcon />
         </a>
@@ -53,15 +53,15 @@ function Home() {
       <h1> About me</h1>
       <h3>
         With eight years of experience in the IT industry, I decided to
-        transition into Java programming. I gained my initial IT experience
-        in Russia as an administrator from 2015 to 2020 in St. Petersburg.
+        transition into Devops. I gained my initial IT experience
+        in Russia as an administrator from 2015 to 2021 in St. Petersburg.
         During this time, I acquired valuable knowledge working with Unix
         systems and developed small applications for various tasks.
       </h3>
       <h3> 
         I further expanded my expertise as a member of the technical staff at
         Oracle, where I contributed to a cloud project by testing networks
-        and hard disk drivers. 
+        and hard disk drivers with Phyton and Bash scripting. 
         I faced the challenge of working with Python instead of Java and successfully adapted to the new language.
         Additionally, I regularly tested drivers with new kernels on different
         virtual machines. Since the beginning of 2018, I have been actively
@@ -75,9 +75,8 @@ function Home() {
           Currently, I am pursuing the Ultimate AWS Certified Developer
           Associate 2023 NEW DVA-C02 online course on Udemy. You can explore
           my portfolio page, which showcases projects I have developed
-          independently. My passion lies in professional growth as a Java
-          Developer, both in backend and frontend development, with the
-          ultimate goal of becoming an Architect. Drawing from my experience
+          independently. My passion lies in professional growth as a DevOps,
+          with the ultimate goal of becoming an Architect. Drawing from my experience
           as a system administrator, I possess a deep understanding of DevOps
           features and how they can contribute to successful project outcomes.
           I am highly motivated to apply my knowledge in challenging projects
@@ -88,6 +87,14 @@ function Home() {
       <div className="skills">
         <h1> Skills</h1>
         <ol className="list">
+        <li className="item">
+            <h2> DevOps</h2>
+            <span>
+            AWS Terraform ,Dockerfile, Builds and Network Configuration, 
+            Kubernetes ,Linux System Administration 
+            Designing a full CI/CD pipeline cycle from build to production deployment 
+            </span>
+          </li>
           <li className="item">
             <h2> Front-End</h2>
             <span>

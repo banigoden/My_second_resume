@@ -17,7 +17,7 @@ function Experience() {
         iconStyle={{ background: '#869cd5', color: '#fff' }}
         icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Self-employed, Freelance Developer</h3>
+        <h3 className="vertical-timeline-element-title">Self-employed, Freelance DevOps</h3>
         <h4 className="vertical-timeline-element-subtitle"></h4>
         <p>Backend and frontend development using AWS, including deployment of EC2 instances and Route 53 configuration</p>
         <p>Working as DevOps with Docker and Kubernetes</p>
@@ -31,9 +31,9 @@ function Experience() {
         iconStyle={{ background: '#869cd5', color: '#fff' }}
         icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Oracle, Member of Technical Staff</h3>
+        <h3 className="vertical-timeline-element-title">Oracle, QA Engineer</h3>
         <h4 className="vertical-timeline-element-subtitle">Saint Petersburg, Russia</h4>
-        <p>Developed and improved tests on Python and Basch scripts to validate Cloud services, Oracle Linux distributions, and Kernel features</p>
+        <p>Developed and improved tests on Python and Bash scripts to validate Cloud services, Oracle Linux distributions, and Kernel features</p>
         <p>Collaborated with Developers to debug discovered issues in Jira</p>
         <p>Troubleshooting and fixing bugs encountered during testing or test development of network and hard disk driving</p>
         <p> Contributed to QA test framework and workflow improvement for CI type of testing using Jenkins</p>
@@ -52,6 +52,8 @@ function Experience() {
         <p>Provided 1st and 2nd line support</p>
         <p>Installed, managed, and configured Windows operating systems, applications, as well as network components</p>
         <p>Assistance in developing user documentation/ installation procedure</p>
+        <p>Technical support for corporate client/server systems of Linux</p>
+        <p>Worked with My SQL</p>
         <p>System and computer analysis</p>
         <p>Supported remote desktop services</p>
         <p>Provided conference support for online & offline meetings</p>
