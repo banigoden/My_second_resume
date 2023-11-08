@@ -19,9 +19,11 @@ function Experience() {
       >
         <h3 className="vertical-timeline-element-title">Self-employed, Freelance DevOps</h3>
         <h4 className="vertical-timeline-element-subtitle"></h4>
-        <p>Backend and frontend development using AWS, including deployment of EC2 instances and Route 53 configuration</p>
-        <p>Working as DevOps with Docker and Kubernetes</p>
-        <p> Full-stack development with Spring Boot, Security, JPA</p>
+        <p>Configured AWS infrastructure using Terraform, creating infrastructure-as-code (IaC) templates to provision and manage 
+        resources such as EC2 instances, S3 buckets, VPCs, and security groups.</p>
+        <p>Implemented and automated the Continuous Integration/Continuous Deployment (CI/CD) process using Jenkins to streamline software development, testing, and deployment workflows.</p>
+        <p>Working with Docker and Kubernetes, Helm</p>
+        <p>Backend and frontend development using AWS, including deployment of EC2 instances and Route 53 configuration, RDS, and IAM roles, Terraform</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
