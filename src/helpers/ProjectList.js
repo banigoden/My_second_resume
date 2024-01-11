@@ -37,9 +37,9 @@ export const ProjectList = [
     githubUrl: "https://github.com/banigoden/banigoden.io",
   },
   {
-    name: "Mobile Game",
+    name: "Djanco app + Ansible",
     image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
-    githubUrl: "https://github.com/your-username/my-website-repo",
+    skills: "Python, Django, Ansible",
+    githubUrl: "https://github.com/banigoden/django",
   },
 ];
