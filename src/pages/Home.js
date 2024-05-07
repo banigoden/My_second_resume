@@ -1,5 +1,5 @@
 import React from "react";
-import Box from "@mui/material/Box";
+
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -7,6 +7,8 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
+import { ReactTyped } from "react-typed";
+import { TypeAnimation } from "react-type-animation";
 // import html from '../assets/skills/html.png';
 // import css from '../assets/skills/css.png';
 // import git from '../assets/skills/git.png';
@@ -16,6 +18,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css";
 import photo from '../assets/myphoto.png';
 
+
 function Home() {
    return (
     <div className="home">
@@ -23,9 +26,19 @@ function Home() {
       <div className="myimage">
        <img src={photo}></img>
       </div>
-        <h2> Hi, My Name is Denis</h2>
+        <h1> Hi, My Name is Denis</h1>
         <div className="prompt">
-          <p>A DevOps with a passion for learning and creating.</p>
+        <h2>
+        <TypeAnimation
+          sequence={[
+            `Welcome to my website!\n I'm a DevOps with Backend knoweledges and expirience in QA.`,
+            1000,
+          ]}
+          speed={50}
+          style={{ whiteSpace: 'pre-line', fontSize: '1em' }}
+          repeat={Infinity}
+        />
+        </h2>
         <a href="https://twitter.com/Banigoden" target="_blank" rel="noopener noreferrer">
           <TwitterIcon />
         </a>
@@ -52,37 +65,15 @@ function Home() {
       <div className="aboutme">
       <h1> About me</h1>
       <h3>
-        With eight years of experience in the IT industry, I decided to
-        transition into Devops. I gained my initial IT experience
-        in Russia as an administrator from 2015 to 2021 in St. Petersburg.
-        During this time, I acquired valuable knowledge working with Unix
-        systems and developed small applications for various tasks.
-      </h3>
-      <h3> 
-        I further expanded my expertise as a member of the technical staff at
-        Oracle, where I contributed to a cloud project by testing networks
-        and hard disk drivers with Phyton and Bash scripting. 
-        I faced the challenge of working with Python instead of Java and successfully adapted to the new language.
-        Additionally, I regularly tested drivers with new kernels on different
-        virtual machines. Since the beginning of 2018, I have been actively
-        studying backend and frontend development on my own. I have
-        completed several courses on the JavaRush and Helsinki University
-        platforms, enhancing my skills in these areas. This year, I focused
-        on learning Kubernetes and Docker to strengthen my proficiency in
-        containerization and orchestration.
+      {<TypeAnimation
+        sequence={[
+        " With nine years of experience in the IT industry, I decided to transition into DevOps. Since the beginning of 2018, I have been actively studying backend and frontend development on my own. I have completed several courses on the JavaRush and Helsinki University platforms, enhancing my skills in these areas. This year, I focused on learning Kubernetes and Docker to strengthen my proficiency in containerization and orchestration. Currently, I am pursuing the AWS course. You can explore my portfolio page, which showcases projects I have developed independently. My passion lies in professional growth as a DevOps with a backend stack, with the ultimate goal of becoming an Architect. Drawing from my experience, I possess a deep understanding of DevOps features and how they can contribute to successful project outcomes."
+        ]}
+        speed={70}
+        style={{ whiteSpace: 'pre-line', fontSize: '1em' }}
+        repeat={Infinity}
+        />} 
         </h3>
-        <h3> 
-          Currently, I am pursuing the Ultimate AWS Certified Developer
-          Associate 2023 NEW DVA-C02 online course on Udemy. You can explore
-          my portfolio page, which showcases projects I have developed
-          independently. My passion lies in professional growth as a DevOps,
-          with the ultimate goal of becoming an Architect. Drawing from my experience
-          as a system administrator, I possess a deep understanding of DevOps
-          features and how they can contribute to successful project outcomes.
-          I am highly motivated to apply my knowledge in challenging projects
-          that not only allow me to learn new technologies but also enhance
-          my working experience.
-          </h3>
       </div>
       <div className="skills">
         <h1> Skills</h1>

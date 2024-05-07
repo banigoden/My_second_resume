@@ -39,7 +39,7 @@ export const ProjectList = [
   {
     name: "Djanco app + Ansible",
     image: Proj6,
-    skills: "Python, Django, Ansible",
+    skills: "Python, Django, Ansible, PostgeSQL",
     githubUrl: "https://github.com/banigoden/django",
   },
 ];
