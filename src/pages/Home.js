@@ -1,5 +1,4 @@
 import React from "react";
-
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -9,15 +8,8 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import { ReactTyped } from "react-typed";
 import { TypeAnimation } from "react-type-animation";
-// import html from '../assets/skills/html.png';
-// import css from '../assets/skills/css.png';
-// import git from '../assets/skills/git.png';
-// import mongo from '../assets/skills/mongo.png';
-// import node from '../assets/skills/node.png';
-// import react from '../assets/skills/react.png';
 import "../styles/Home.css";
 import photo from '../assets/myphoto.png';
-
 
 function Home() {
    return (
@@ -26,12 +18,16 @@ function Home() {
       <div className="myimage">
        <img src={photo}></img>
       </div>
-        <h1> Hi, My Name is Denis</h1>
+        <h1> Hi, My Name is Denis.</h1>
         <div className="prompt">
         <h2>
         <TypeAnimation
           sequence={[
-            `Welcome to my website!\n I'm a DevOps with Backend knoweledges and expirience in QA.`,
+            `Welcome to my website!\n I'm a DevOps engineer.`,
+            1000,
+            `I'm a Backend engineer with Java and Python.`,
+            1000,
+            `I'm expirience in QA with Selenium and automation.`,
             1000,
           ]}
           speed={50}
@@ -71,7 +67,7 @@ function Home() {
         ]}
         speed={70}
         style={{ whiteSpace: 'pre-line', fontSize: '1em' }}
-        repeat={Infinity}
+        repeat={1}
         />} 
         </h3>
       </div>
