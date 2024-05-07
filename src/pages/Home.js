@@ -77,16 +77,14 @@ function Home() {
         <li className="item">
             <h2> DevOps</h2>
             <span>
-            AWS Terraform ,Dockerfile, Builds and Network Configuration, 
-            Kubernetes ,Linux System Administration 
+            AWS, Terraform, Docker, Kubernetes, Builds and Network Configuration, 
+            Linux System Administration 
             Designing a full CI/CD pipeline cycle from build to production deployment 
             </span>
           </li>
           <li className="item">
-            <h2> Front-End</h2>
-            <span>
-              ReactJS, JS, HTML, CSS 
-            </span>
+            <h2>Programming languages</h2>
+            <span> Java, Python</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
@@ -95,8 +93,10 @@ function Home() {
             </span>
           </li>
           <li className="item">
-            <h2>Languages</h2>
-            <span> Java, Python</span>
+            <h2> Front-End</h2>
+            <span>
+              ReactJS, JS, HTML, CSS 
+            </span>
           </li>
         </ol>
       </div>
