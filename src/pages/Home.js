@@ -77,19 +77,14 @@ function Home() {
         <li className="item">
             <h2> DevOps</h2>
             <span>
-            AWS, Terraform, Docker, Kubernetes, Builds and Network Configuration, 
-            Linux System Administration 
+            AWS, Terraform, Docker, Kubernetes, Linux System Administration, Bash-scripting. 
             Designing a full CI/CD pipeline cycle from build to production deployment 
             </span>
           </li>
           <li className="item">
-            <h2>Programming languages</h2>
-            <span> Java, Python</span>
-          </li>
-          <li className="item">
             <h2>Back-End</h2>
             <span>
-               Spring Framework, MySQL, MongoDB, AWS 
+            Java, Python, Spring Framework, MySQL, MongoDB 
             </span>
           </li>
           <li className="item">
