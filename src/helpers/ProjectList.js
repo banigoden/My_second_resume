@@ -13,10 +13,10 @@ export const ProjectList = [
     githubUrl: "https://github.com/banigoden/denis_bandurin",
   },
   {
-    name: "Service of notes",
+    name: "Automating CI/CD with GitHub Actions",
     image: Proj2,
-    skills: "Java, Spring Boot, JPA, PostgreSQL",
-    githubUrl: "https://github.com/banigoden/service",
+    skills: "Github Actions, Terraform, Ansible, Docker",
+    githubUrl: "https://github.com/banigoden/Python_Web_GitHub_Actions",
   },
   {
     name: "Pet clinic application",
